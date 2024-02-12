@@ -1,0 +1,16 @@
+.nav-container {
+    width: 1440px;
+    height: 187px;
+    background: #1C110A;
+}
+
+#upper-body {
+    display: flex;
+    width: 1080px;
+    height: 720px;
+    padding: 354px 350px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: radial-gradient(50% 50% at 50% 50%, #FEFAEF 0%, #E9B44C 100%);
+}
