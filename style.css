@@ -1,16 +1,40 @@
-.nav-container {
-    width: 1440px;
-    height: 187px;
-    background: #1C110A;
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #F5F5F5 0%, #5C8374 100%);
 }
 
-#upper-body {
+.main-body {
     display: flex;
-    width: 1080px;
-    height: 720px;
-    padding: 354px 350px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: radial-gradient(50% 50% at 50% 50%, #FEFAEF 0%, #E9B44C 100%);
+    width: 100%;
+    height: 100%;
+    /* padding: 354px 350px; */
+}
+
+#welcome-text {
+    color: #040D12;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 128px;
+    font-style: bold;
+    font-weight: 800;
+    line-height: normal;
+}
+
+#welcome-subtext {
+    color: #040D12;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+#flex-container-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#child-container-1 {
+    display: flex;
+    flex-direction: column;
 }
