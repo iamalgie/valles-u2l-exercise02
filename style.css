@@ -36,12 +36,15 @@ body {
 .buttons {
     color: #93B1A6;
     text-align: justify;
-    font-family: "Work Sans";
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 200;
     line-height: normal;
-    letter-spacing: 1.4px;
+}
+
+.buttons:hover {
+    color: #ffffff; 
 }
 
 #navbar-button {
@@ -186,6 +189,14 @@ body {
     padding: 20px;
 }
 
+.shrink-on-hover {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.shrink-on-hover:hover {
+    transform: scale(0.9);
+}
+
 #footer {
     width: 100%px;
     height: 120px;
@@ -240,6 +251,10 @@ body {
     line-height: normal;
     letter-spacing: 1px;
     padding: 0px;
+}
+
+#footer-text-3:hover {
+    color: #ffffff;
 }
 
 #footer-text-1,
