@@ -5,6 +5,8 @@ body {
 .main-body {
     padding: 100px;
     padding-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
     background: radial-gradient(50% 50% at 50% 50%, #F5F5F5 0%, #5C8374 100%);
 }
 
@@ -243,5 +245,42 @@ body {
 #footer-text-1,
 #footer-text-2,
 #footer-text-3 {
-    margin-bottom: 0px; /* Adjust this value to your liking */
+    margin-bottom: 0px;
+}
+
+
+/* This serve as a condition to implement a certain layout when minimizing the tab */
+@media (max-width: 768px) {
+    .main-body {
+        flex-direction: column;
+        padding: 50px;
+        padding-top: 75px;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar-logo, #navbar-button {
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    #flex-container-1, #child-container-1, .lower-body, #lower-body-child-1, #lower-body-child-2, .lower-body-2, #lower-body-row, .lower-body-child-3 {
+        flex-direction: column;
+    }
+
+    #lower-body-children, #lower-body-children-row {
+        width: 100%;
+        height: auto;
+    }
+
+    #footer {
+        flex-direction: column;
+    }
+
+    #footer-logo, #footer-column-container {
+        justify-content: center;
+        padding-left: 0;
+    }
 }
