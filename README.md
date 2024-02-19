@@ -1,8 +1,8 @@
 # **CMSC 100 - Exercise 02**
 > Algie Lloyd Niño A. Valles <br> BS Computer Science <br> CMSC 100 - U2L
 
-## Link to the website!
-[Live Website Link](https://iamalgie.github.io/valles-u2l-exercise02/)
+### Link to the website!
+[CMSC 100 - Exercise 02](https://iamalgie.github.io/valles-u2l-exercise02/)
 
 ### Steps on how to create Github page:
 1. On your own repository, go to the **Settings** Tab.
